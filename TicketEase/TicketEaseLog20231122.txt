@@ -1,0 +1,303 @@
+2023-11-22 08:50:55.317 +01:00 [INF] User profile is available. Using 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-11-22 08:50:56.309 +01:00 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Payment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-11-22 08:50:56.579 +01:00 [INF] Entity Framework Core 6.0.0 initialized 'TicketEaseDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2023-11-22 08:50:59.084 +01:00 [INF] Executed DbCommand (68ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2023-11-22 08:50:59.196 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2023-11-22 08:50:59.206 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2023-11-22 08:50:59.231 +01:00 [INF] Executed DbCommand (4ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[Address], [a].[CloudinaryPublicId], [a].[ConcurrencyStamp], [a].[CreatedAt], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[Gender], [a].[ImageUrl], [a].[IsActive], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[ManagerId], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PasswordResetToken], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[ResetTokenExpires], [a].[SecurityStamp], [a].[State], [a].[TwoFactorEnabled], [a].[UpdatedAt], [a].[UserName], [a].[VerificationToken], [a].[VerifiedAt]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2023-11-22 08:50:59.633 +01:00 [INF] Now listening on: https://localhost:7075
+2023-11-22 08:50:59.637 +01:00 [INF] Now listening on: http://localhost:5075
+2023-11-22 08:50:59.648 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-22 08:50:59.652 +01:00 [INF] Hosting environment: Development
+2023-11-22 08:50:59.654 +01:00 [INF] Content root path: C:\Users\user\Documents\DecagonTasks\SQ017-TicketEase-Live-Project-Backend\TicketEase\
+2023-11-22 08:51:00.174 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7075/swagger/index.html - -
+2023-11-22 08:51:00.688 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7075/swagger/index.html - - - 200 - text/html;charset=utf-8 520.0345ms
+2023-11-22 08:51:00.694 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7075/_framework/aspnetcore-browser-refresh.js - -
+2023-11-22 08:51:00.694 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7075/_vs/browserLink - -
+2023-11-22 08:51:00.702 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7075/_framework/aspnetcore-browser-refresh.js - - - 200 12352 application/javascript;+charset=utf-8 8.3467ms
+2023-11-22 08:51:00.773 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7075/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 79.4502ms
+2023-11-22 08:51:00.856 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7075/swagger/v1/swagger.json - -
+2023-11-22 08:51:01.052 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7075/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 195.2000ms
+2023-11-22 08:58:48.746 +01:00 [INF] User profile is available. Using 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-11-22 08:58:49.430 +01:00 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Payment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-11-22 08:58:49.602 +01:00 [INF] Entity Framework Core 6.0.0 initialized 'TicketEaseDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2023-11-22 08:58:50.186 +01:00 [INF] Executed DbCommand (42ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2023-11-22 08:58:50.259 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2023-11-22 08:58:50.266 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2023-11-22 08:58:50.281 +01:00 [INF] Executed DbCommand (3ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[Address], [a].[CloudinaryPublicId], [a].[ConcurrencyStamp], [a].[CreatedAt], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[Gender], [a].[ImageUrl], [a].[IsActive], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[ManagerId], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PasswordResetToken], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[ResetTokenExpires], [a].[SecurityStamp], [a].[State], [a].[TwoFactorEnabled], [a].[UpdatedAt], [a].[UserName], [a].[VerificationToken], [a].[VerifiedAt]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2023-11-22 08:58:50.497 +01:00 [INF] Now listening on: https://localhost:7075
+2023-11-22 08:58:50.500 +01:00 [INF] Now listening on: http://localhost:5075
+2023-11-22 08:58:50.508 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-22 08:58:50.512 +01:00 [INF] Hosting environment: Development
+2023-11-22 08:58:50.514 +01:00 [INF] Content root path: C:\Users\user\Documents\DecagonTasks\SQ017-TicketEase-Live-Project-Backend\TicketEase\
+2023-11-22 08:58:50.627 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7075/swagger/index.html - -
+2023-11-22 08:58:50.900 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7075/swagger/index.html - - - 200 - text/html;charset=utf-8 275.1578ms
+2023-11-22 08:58:50.902 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7075/_framework/aspnetcore-browser-refresh.js - -
+2023-11-22 08:58:50.902 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7075/_vs/browserLink - -
+2023-11-22 08:58:50.909 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7075/_framework/aspnetcore-browser-refresh.js - - - 200 12352 application/javascript;+charset=utf-8 7.2815ms
+2023-11-22 08:58:50.917 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7075/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 15.6327ms
+2023-11-22 08:58:51.123 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7075/swagger/v1/swagger.json - -
+2023-11-22 08:58:51.239 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7075/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 115.4233ms
+2023-11-22 09:02:36.692 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7075/swagger/index.html - -
+2023-11-22 09:02:36.702 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7075/swagger/index.html - - - 200 - text/html;charset=utf-8 9.1644ms
+2023-11-22 09:02:36.712 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7075/_framework/aspnetcore-browser-refresh.js - -
+2023-11-22 09:02:36.713 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7075/_vs/browserLink - -
+2023-11-22 09:02:36.716 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7075/_framework/aspnetcore-browser-refresh.js - - - 200 12352 application/javascript;+charset=utf-8 3.5089ms
+2023-11-22 09:02:36.725 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7075/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 12.0530ms
+2023-11-22 09:02:36.979 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7075/swagger/v1/swagger.json - -
+2023-11-22 09:02:36.990 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7075/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 11.2178ms
+2023-11-22 09:03:42.541 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7075/swagger/index.html - -
+2023-11-22 09:03:42.548 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7075/swagger/index.html - - - 200 - text/html;charset=utf-8 6.3547ms
+2023-11-22 09:03:42.564 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7075/_framework/aspnetcore-browser-refresh.js - -
+2023-11-22 09:03:42.568 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7075/_framework/aspnetcore-browser-refresh.js - - - 200 12352 application/javascript;+charset=utf-8 3.8681ms
+2023-11-22 09:03:42.574 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7075/_vs/browserLink - -
+2023-11-22 09:03:42.604 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7075/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 30.0918ms
+2023-11-22 09:03:42.680 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7075/swagger/v1/swagger.json - -
+2023-11-22 09:03:42.687 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7075/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 7.0200ms
+2023-11-22 09:05:06.502 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7075/api/Authentication/forgot-password - -
+2023-11-22 09:05:06.512 +01:00 [INF] CORS policy execution successful.
+2023-11-22 09:05:06.518 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7075/api/Authentication/forgot-password - - - 204 - - 15.8672ms
+2023-11-22 09:05:06.520 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7075/api/Authentication/forgot-password application/json 41
+2023-11-22 09:05:06.525 +01:00 [INF] CORS policy execution successful.
+2023-11-22 09:05:06.544 +01:00 [INF] Executing endpoint 'TicketEase.Controllers.AuthenticationController.ForgotPassword (TicketEase)'
+2023-11-22 09:05:06.594 +01:00 [INF] Route matched with {action = "ForgotPassword", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ForgotPassword(TicketEase.Application.DTO.ForgotPasswordDto) on controller TicketEase.Controllers.AuthenticationController (TicketEase).
+2023-11-22 09:05:06.750 +01:00 [INF] Entity Framework Core 6.0.0 initialized 'TicketEaseDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2023-11-22 09:05:06.772 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[Address], [a].[CloudinaryPublicId], [a].[ConcurrencyStamp], [a].[CreatedAt], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[Gender], [a].[ImageUrl], [a].[IsActive], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[ManagerId], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PasswordResetToken], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[ResetTokenExpires], [a].[SecurityStamp], [a].[State], [a].[TwoFactorEnabled], [a].[UpdatedAt], [a].[UserName], [a].[VerificationToken], [a].[VerifiedAt]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2023-11-22 09:05:06.791 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[Address], [a].[CloudinaryPublicId], [a].[ConcurrencyStamp], [a].[CreatedAt], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[Gender], [a].[ImageUrl], [a].[IsActive], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[ManagerId], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PasswordResetToken], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[ResetTokenExpires], [a].[SecurityStamp], [a].[State], [a].[TwoFactorEnabled], [a].[UpdatedAt], [a].[UserName], [a].[VerificationToken], [a].[VerifiedAt]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2023-11-22 09:05:06.802 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[Address], [a].[CloudinaryPublicId], [a].[ConcurrencyStamp], [a].[CreatedAt], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[Gender], [a].[ImageUrl], [a].[IsActive], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[ManagerId], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PasswordResetToken], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[ResetTokenExpires], [a].[SecurityStamp], [a].[State], [a].[TwoFactorEnabled], [a].[UpdatedAt], [a].[UserName], [a].[VerificationToken], [a].[VerifiedAt]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2023-11-22 09:05:06.977 +01:00 [INF] Executed DbCommand (10ms) [Parameters=[@p29='?' (Size = 450), @p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p30='?' (Size = 4000), @p4='?' (DbType = DateTime2), @p5='?' (Size = 256), @p6='?' (DbType = Boolean), @p7='?' (Size = 4000), @p8='?' (Size = 4000), @p9='?' (Size = 4000), @p10='?' (DbType = Boolean), @p11='?' (Size = 4000), @p12='?' (DbType = Boolean), @p13='?' (DbType = DateTimeOffset), @p14='?' (Size = 450), @p15='?' (Size = 256), @p16='?' (Size = 256), @p17='?' (Size = 4000), @p18='?' (Size = 4000), @p19='?' (Size = 4000), @p20='?' (DbType = Boolean), @p21='?' (DbType = DateTime2), @p22='?' (Size = 4000), @p23='?' (Size = 4000), @p24='?' (DbType = Boolean), @p25='?' (DbType = DateTime2), @p26='?' (Size = 256), @p27='?' (Size = 4000), @p28='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p0, [Address] = @p1, [CloudinaryPublicId] = @p2, [ConcurrencyStamp] = @p3, [CreatedAt] = @p4, [Email] = @p5, [EmailConfirmed] = @p6, [FirstName] = @p7, [Gender] = @p8, [ImageUrl] = @p9, [IsActive] = @p10, [LastName] = @p11, [LockoutEnabled] = @p12, [LockoutEnd] = @p13, [ManagerId] = @p14, [NormalizedEmail] = @p15, [NormalizedUserName] = @p16, [PasswordHash] = @p17, [PasswordResetToken] = @p18, [PhoneNumber] = @p19, [PhoneNumberConfirmed] = @p20, [ResetTokenExpires] = @p21, [SecurityStamp] = @p22, [State] = @p23, [TwoFactorEnabled] = @p24, [UpdatedAt] = @p25, [UserName] = @p26, [VerificationToken] = @p27, [VerifiedAt] = @p28
+WHERE [Id] = @p29 AND [ConcurrencyStamp] = @p30;
+SELECT @@ROWCOUNT;
+2023-11-22 09:05:09.958 +01:00 [INF] Executing OkObjectResult, writing value of type 'TicketEase.Domain.ApiResponse`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-11-22 09:05:09.986 +01:00 [INF] Executed action TicketEase.Controllers.AuthenticationController.ForgotPassword (TicketEase) in 3378.2202ms
+2023-11-22 09:05:09.993 +01:00 [INF] Executed endpoint 'TicketEase.Controllers.AuthenticationController.ForgotPassword (TicketEase)'
+2023-11-22 09:05:09.999 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7075/api/Authentication/forgot-password application/json 41 - 200 - application/json;+charset=utf-8 3479.3144ms
+2023-11-22 09:25:06.938 +01:00 [INF] User profile is available. Using 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-11-22 09:25:07.581 +01:00 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Payment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-11-22 09:25:07.743 +01:00 [INF] Entity Framework Core 6.0.0 initialized 'TicketEaseDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2023-11-22 09:25:08.276 +01:00 [INF] Executed DbCommand (42ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2023-11-22 09:25:08.352 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2023-11-22 09:25:08.358 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2023-11-22 09:25:08.371 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[Address], [a].[CloudinaryPublicId], [a].[ConcurrencyStamp], [a].[CreatedAt], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[Gender], [a].[ImageUrl], [a].[IsActive], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[ManagerId], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PasswordResetToken], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[ResetTokenExpires], [a].[SecurityStamp], [a].[State], [a].[TwoFactorEnabled], [a].[UpdatedAt], [a].[UserName], [a].[VerificationToken], [a].[VerifiedAt]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2023-11-22 09:25:08.587 +01:00 [INF] Now listening on: https://localhost:7075
+2023-11-22 09:25:08.591 +01:00 [INF] Now listening on: http://localhost:5075
+2023-11-22 09:25:08.597 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-22 09:25:08.601 +01:00 [INF] Hosting environment: Development
+2023-11-22 09:25:08.604 +01:00 [INF] Content root path: C:\Users\user\Documents\DecagonTasks\SQ017-TicketEase-Live-Project-Backend\TicketEase\
+2023-11-22 09:25:08.823 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7075/swagger/index.html - -
+2023-11-22 09:25:09.073 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7075/swagger/index.html - - - 200 - text/html;charset=utf-8 253.6994ms
+2023-11-22 09:25:09.086 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7075/_vs/browserLink - -
+2023-11-22 09:25:09.086 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7075/_framework/aspnetcore-browser-refresh.js - -
+2023-11-22 09:25:09.092 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7075/_framework/aspnetcore-browser-refresh.js - - - 200 12352 application/javascript;+charset=utf-8 6.0768ms
+2023-11-22 09:25:09.103 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7075/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 17.3928ms
+2023-11-22 09:25:09.306 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7075/swagger/v1/swagger.json - -
+2023-11-22 09:25:09.455 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7075/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 148.9114ms
+2023-11-22 09:25:19.714 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7075/api/Authentication/forgot-password - -
+2023-11-22 09:25:19.723 +01:00 [INF] CORS policy execution successful.
+2023-11-22 09:25:19.727 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7075/api/Authentication/forgot-password - - - 204 - - 13.5588ms
+2023-11-22 09:25:19.729 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7075/api/Authentication/forgot-password application/json 41
+2023-11-22 09:25:19.735 +01:00 [INF] CORS policy execution successful.
+2023-11-22 09:25:19.750 +01:00 [INF] Executing endpoint 'TicketEase.Controllers.AuthenticationController.ForgotPassword (TicketEase)'
+2023-11-22 09:25:19.791 +01:00 [INF] Route matched with {action = "ForgotPassword", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ForgotPassword(TicketEase.Application.DTO.ForgotPasswordDto) on controller TicketEase.Controllers.AuthenticationController (TicketEase).
+2023-11-22 09:25:19.918 +01:00 [INF] Entity Framework Core 6.0.0 initialized 'TicketEaseDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2023-11-22 09:25:19.937 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[Address], [a].[CloudinaryPublicId], [a].[ConcurrencyStamp], [a].[CreatedAt], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[Gender], [a].[ImageUrl], [a].[IsActive], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[ManagerId], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PasswordResetToken], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[ResetTokenExpires], [a].[SecurityStamp], [a].[State], [a].[TwoFactorEnabled], [a].[UpdatedAt], [a].[UserName], [a].[VerificationToken], [a].[VerifiedAt]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2023-11-22 09:25:19.953 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[Address], [a].[CloudinaryPublicId], [a].[ConcurrencyStamp], [a].[CreatedAt], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[Gender], [a].[ImageUrl], [a].[IsActive], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[ManagerId], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PasswordResetToken], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[ResetTokenExpires], [a].[SecurityStamp], [a].[State], [a].[TwoFactorEnabled], [a].[UpdatedAt], [a].[UserName], [a].[VerificationToken], [a].[VerifiedAt]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2023-11-22 09:25:19.965 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[Address], [a].[CloudinaryPublicId], [a].[ConcurrencyStamp], [a].[CreatedAt], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[Gender], [a].[ImageUrl], [a].[IsActive], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[ManagerId], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PasswordResetToken], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[ResetTokenExpires], [a].[SecurityStamp], [a].[State], [a].[TwoFactorEnabled], [a].[UpdatedAt], [a].[UserName], [a].[VerificationToken], [a].[VerifiedAt]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2023-11-22 09:25:20.119 +01:00 [INF] Executed DbCommand (3ms) [Parameters=[@p29='?' (Size = 450), @p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p30='?' (Size = 4000), @p4='?' (DbType = DateTime2), @p5='?' (Size = 256), @p6='?' (DbType = Boolean), @p7='?' (Size = 4000), @p8='?' (Size = 4000), @p9='?' (Size = 4000), @p10='?' (DbType = Boolean), @p11='?' (Size = 4000), @p12='?' (DbType = Boolean), @p13='?' (DbType = DateTimeOffset), @p14='?' (Size = 450), @p15='?' (Size = 256), @p16='?' (Size = 256), @p17='?' (Size = 4000), @p18='?' (Size = 4000), @p19='?' (Size = 4000), @p20='?' (DbType = Boolean), @p21='?' (DbType = DateTime2), @p22='?' (Size = 4000), @p23='?' (Size = 4000), @p24='?' (DbType = Boolean), @p25='?' (DbType = DateTime2), @p26='?' (Size = 256), @p27='?' (Size = 4000), @p28='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p0, [Address] = @p1, [CloudinaryPublicId] = @p2, [ConcurrencyStamp] = @p3, [CreatedAt] = @p4, [Email] = @p5, [EmailConfirmed] = @p6, [FirstName] = @p7, [Gender] = @p8, [ImageUrl] = @p9, [IsActive] = @p10, [LastName] = @p11, [LockoutEnabled] = @p12, [LockoutEnd] = @p13, [ManagerId] = @p14, [NormalizedEmail] = @p15, [NormalizedUserName] = @p16, [PasswordHash] = @p17, [PasswordResetToken] = @p18, [PhoneNumber] = @p19, [PhoneNumberConfirmed] = @p20, [ResetTokenExpires] = @p21, [SecurityStamp] = @p22, [State] = @p23, [TwoFactorEnabled] = @p24, [UpdatedAt] = @p25, [UserName] = @p26, [VerificationToken] = @p27, [VerifiedAt] = @p28
+WHERE [Id] = @p29 AND [ConcurrencyStamp] = @p30;
+SELECT @@ROWCOUNT;
+2023-11-22 09:25:22.614 +01:00 [INF] Executing OkObjectResult, writing value of type 'TicketEase.Domain.ApiResponse`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-11-22 09:25:22.640 +01:00 [INF] Executed action TicketEase.Controllers.AuthenticationController.ForgotPassword (TicketEase) in 2833.9975ms
+2023-11-22 09:25:22.647 +01:00 [INF] Executed endpoint 'TicketEase.Controllers.AuthenticationController.ForgotPassword (TicketEase)'
+2023-11-22 09:25:22.652 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7075/api/Authentication/forgot-password application/json 41 - 200 - application/json;+charset=utf-8 2923.6350ms
+2023-11-22 09:26:11.048 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7075/api/Authentication/reset-password - -
+2023-11-22 09:26:11.058 +01:00 [INF] CORS policy execution successful.
+2023-11-22 09:26:11.061 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7075/api/Authentication/reset-password - - - 204 - - 13.1494ms
+2023-11-22 09:26:11.063 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7075/api/Authentication/reset-password application/json 350
+2023-11-22 09:26:11.066 +01:00 [INF] CORS policy execution successful.
+2023-11-22 09:26:11.068 +01:00 [INF] Executing endpoint 'TicketEase.Controllers.AuthenticationController.ResetPassword (TicketEase)'
+2023-11-22 09:26:11.073 +01:00 [INF] Route matched with {action = "ResetPassword", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ResetPassword(TicketEase.Application.DTO.ResetPasswordDto) on controller TicketEase.Controllers.AuthenticationController (TicketEase).
+2023-11-22 09:26:11.100 +01:00 [INF] Entity Framework Core 6.0.0 initialized 'TicketEaseDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2023-11-22 09:26:11.109 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[Address], [a].[CloudinaryPublicId], [a].[ConcurrencyStamp], [a].[CreatedAt], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[Gender], [a].[ImageUrl], [a].[IsActive], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[ManagerId], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PasswordResetToken], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[ResetTokenExpires], [a].[SecurityStamp], [a].[State], [a].[TwoFactorEnabled], [a].[UpdatedAt], [a].[UserName], [a].[VerificationToken], [a].[VerifiedAt]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2023-11-22 09:26:11.139 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[Address], [a].[CloudinaryPublicId], [a].[ConcurrencyStamp], [a].[CreatedAt], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[Gender], [a].[ImageUrl], [a].[IsActive], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[ManagerId], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PasswordResetToken], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[ResetTokenExpires], [a].[SecurityStamp], [a].[State], [a].[TwoFactorEnabled], [a].[UpdatedAt], [a].[UserName], [a].[VerificationToken], [a].[VerifiedAt]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2023-11-22 09:26:11.159 +01:00 [INF] Executed DbCommand (8ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[Address], [a].[CloudinaryPublicId], [a].[ConcurrencyStamp], [a].[CreatedAt], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[Gender], [a].[ImageUrl], [a].[IsActive], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[ManagerId], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PasswordResetToken], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[ResetTokenExpires], [a].[SecurityStamp], [a].[State], [a].[TwoFactorEnabled], [a].[UpdatedAt], [a].[UserName], [a].[VerificationToken], [a].[VerifiedAt]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2023-11-22 09:26:11.170 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[@p29='?' (Size = 450), @p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p30='?' (Size = 4000), @p4='?' (DbType = DateTime2), @p5='?' (Size = 256), @p6='?' (DbType = Boolean), @p7='?' (Size = 4000), @p8='?' (Size = 4000), @p9='?' (Size = 4000), @p10='?' (DbType = Boolean), @p11='?' (Size = 4000), @p12='?' (DbType = Boolean), @p13='?' (DbType = DateTimeOffset), @p14='?' (Size = 450), @p15='?' (Size = 256), @p16='?' (Size = 256), @p17='?' (Size = 4000), @p18='?' (Size = 4000), @p19='?' (Size = 4000), @p20='?' (DbType = Boolean), @p21='?' (DbType = DateTime2), @p22='?' (Size = 4000), @p23='?' (Size = 4000), @p24='?' (DbType = Boolean), @p25='?' (DbType = DateTime2), @p26='?' (Size = 256), @p27='?' (Size = 4000), @p28='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p0, [Address] = @p1, [CloudinaryPublicId] = @p2, [ConcurrencyStamp] = @p3, [CreatedAt] = @p4, [Email] = @p5, [EmailConfirmed] = @p6, [FirstName] = @p7, [Gender] = @p8, [ImageUrl] = @p9, [IsActive] = @p10, [LastName] = @p11, [LockoutEnabled] = @p12, [LockoutEnd] = @p13, [ManagerId] = @p14, [NormalizedEmail] = @p15, [NormalizedUserName] = @p16, [PasswordHash] = @p17, [PasswordResetToken] = @p18, [PhoneNumber] = @p19, [PhoneNumberConfirmed] = @p20, [ResetTokenExpires] = @p21, [SecurityStamp] = @p22, [State] = @p23, [TwoFactorEnabled] = @p24, [UpdatedAt] = @p25, [UserName] = @p26, [VerificationToken] = @p27, [VerifiedAt] = @p28
+WHERE [Id] = @p29 AND [ConcurrencyStamp] = @p30;
+SELECT @@ROWCOUNT;
+2023-11-22 09:26:11.179 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[Address], [a].[CloudinaryPublicId], [a].[ConcurrencyStamp], [a].[CreatedAt], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[Gender], [a].[ImageUrl], [a].[IsActive], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[ManagerId], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PasswordResetToken], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[ResetTokenExpires], [a].[SecurityStamp], [a].[State], [a].[TwoFactorEnabled], [a].[UpdatedAt], [a].[UserName], [a].[VerificationToken], [a].[VerifiedAt]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2023-11-22 09:26:11.188 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[Address], [a].[CloudinaryPublicId], [a].[ConcurrencyStamp], [a].[CreatedAt], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[Gender], [a].[ImageUrl], [a].[IsActive], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[ManagerId], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PasswordResetToken], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[ResetTokenExpires], [a].[SecurityStamp], [a].[State], [a].[TwoFactorEnabled], [a].[UpdatedAt], [a].[UserName], [a].[VerificationToken], [a].[VerifiedAt]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2023-11-22 09:26:11.196 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[@p29='?' (Size = 450), @p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p30='?' (Size = 4000), @p4='?' (DbType = DateTime2), @p5='?' (Size = 256), @p6='?' (DbType = Boolean), @p7='?' (Size = 4000), @p8='?' (Size = 4000), @p9='?' (Size = 4000), @p10='?' (DbType = Boolean), @p11='?' (Size = 4000), @p12='?' (DbType = Boolean), @p13='?' (DbType = DateTimeOffset), @p14='?' (Size = 450), @p15='?' (Size = 256), @p16='?' (Size = 256), @p17='?' (Size = 4000), @p18='?' (Size = 4000), @p19='?' (Size = 4000), @p20='?' (DbType = Boolean), @p21='?' (DbType = DateTime2), @p22='?' (Size = 4000), @p23='?' (Size = 4000), @p24='?' (DbType = Boolean), @p25='?' (DbType = DateTime2), @p26='?' (Size = 256), @p27='?' (Size = 4000), @p28='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p0, [Address] = @p1, [CloudinaryPublicId] = @p2, [ConcurrencyStamp] = @p3, [CreatedAt] = @p4, [Email] = @p5, [EmailConfirmed] = @p6, [FirstName] = @p7, [Gender] = @p8, [ImageUrl] = @p9, [IsActive] = @p10, [LastName] = @p11, [LockoutEnabled] = @p12, [LockoutEnd] = @p13, [ManagerId] = @p14, [NormalizedEmail] = @p15, [NormalizedUserName] = @p16, [PasswordHash] = @p17, [PasswordResetToken] = @p18, [PhoneNumber] = @p19, [PhoneNumberConfirmed] = @p20, [ResetTokenExpires] = @p21, [SecurityStamp] = @p22, [State] = @p23, [TwoFactorEnabled] = @p24, [UpdatedAt] = @p25, [UserName] = @p26, [VerificationToken] = @p27, [VerifiedAt] = @p28
+WHERE [Id] = @p29 AND [ConcurrencyStamp] = @p30;
+SELECT @@ROWCOUNT;
+2023-11-22 09:26:11.205 +01:00 [INF] Executing OkObjectResult, writing value of type 'TicketEase.Domain.ApiResponse`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-11-22 09:26:11.208 +01:00 [INF] Executed action TicketEase.Controllers.AuthenticationController.ResetPassword (TicketEase) in 128.4401ms
+2023-11-22 09:26:11.211 +01:00 [INF] Executed endpoint 'TicketEase.Controllers.AuthenticationController.ResetPassword (TicketEase)'
+2023-11-22 09:26:11.214 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7075/api/Authentication/reset-password application/json 350 - 200 - application/json;+charset=utf-8 150.8436ms
+2023-11-22 11:16:36.970 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7075/_framework/aspnetcore-browser-refresh.js - -
+2023-11-22 11:16:36.977 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7075/_framework/aspnetcore-browser-refresh.js - - - 200 12352 application/javascript;+charset=utf-8 7.0202ms
+2023-11-22 11:16:37.018 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7075/_vs/browserLink - -
+2023-11-22 11:16:37.040 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7075/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 21.6772ms
+2023-11-22 11:16:37.595 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7075/swagger/v1/swagger.json - -
+2023-11-22 11:16:37.627 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7075/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 31.8595ms
+2023-11-22 11:16:51.017 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7075/_framework/aspnetcore-browser-refresh.js - -
+2023-11-22 11:16:51.022 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7075/_framework/aspnetcore-browser-refresh.js - - - 200 12352 application/javascript;+charset=utf-8 4.7016ms
+2023-11-22 11:16:51.086 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7075/_vs/browserLink - -
+2023-11-22 11:16:51.118 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7075/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 31.7220ms
+2023-11-22 11:16:51.698 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7075/swagger/v1/swagger.json - -
+2023-11-22 11:16:51.714 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7075/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 16.3678ms
+2023-11-22 19:19:29.302 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7075/api/Authentication/forgot-password application/json 33
+2023-11-22 19:19:29.331 +01:00 [INF] CORS policy execution failed.
+2023-11-22 19:19:29.346 +01:00 [INF] Request origin https://localhost:7075 does not have permission to access the resource.
+2023-11-22 19:19:29.407 +01:00 [INF] Executing endpoint 'TicketEase.Controllers.AuthenticationController.ForgotPassword (TicketEase)'
+2023-11-22 19:19:29.417 +01:00 [INF] Route matched with {action = "ForgotPassword", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ForgotPassword(TicketEase.Application.DTO.ForgotPasswordDto) on controller TicketEase.Controllers.AuthenticationController (TicketEase).
+2023-11-22 19:19:29.536 +01:00 [INF] Entity Framework Core 6.0.0 initialized 'TicketEaseDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2023-11-22 19:19:29.636 +01:00 [INF] Executed DbCommand (17ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[Address], [a].[CloudinaryPublicId], [a].[ConcurrencyStamp], [a].[CreatedAt], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[Gender], [a].[ImageUrl], [a].[IsActive], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[ManagerId], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PasswordResetToken], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[ResetTokenExpires], [a].[SecurityStamp], [a].[State], [a].[TwoFactorEnabled], [a].[UpdatedAt], [a].[UserName], [a].[VerificationToken], [a].[VerifiedAt]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2023-11-22 19:19:29.676 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'TicketEase.Domain.ApiResponse`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-11-22 19:19:29.693 +01:00 [INF] Executed action TicketEase.Controllers.AuthenticationController.ForgotPassword (TicketEase) in 250.3064ms
+2023-11-22 19:19:29.706 +01:00 [INF] Executed endpoint 'TicketEase.Controllers.AuthenticationController.ForgotPassword (TicketEase)'
+2023-11-22 19:19:29.715 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7075/api/Authentication/forgot-password application/json 33 - 400 - application/json;+charset=utf-8 416.1030ms
+2023-11-22 20:06:06.634 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7075/api/Authentication/update-password application/json 94
+2023-11-22 20:06:06.650 +01:00 [INF] CORS policy execution failed.
+2023-11-22 20:06:06.659 +01:00 [INF] Request origin https://localhost:7075 does not have permission to access the resource.
+2023-11-22 20:06:06.665 +01:00 [INF] Executing endpoint 'TicketEase.Controllers.AuthenticationController.UpdatePassword (TicketEase)'
+2023-11-22 20:06:06.696 +01:00 [INF] Route matched with {action = "UpdatePassword", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdatePassword(TicketEase.Application.DTO.UpdatePasswordDto) on controller TicketEase.Controllers.AuthenticationController (TicketEase).
+2023-11-22 20:06:06.754 +01:00 [INF] Executing UnauthorizedObjectResult, writing value of type 'TicketEase.Domain.ApiResponse`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-11-22 20:06:06.772 +01:00 [INF] Executed action TicketEase.Controllers.AuthenticationController.UpdatePassword (TicketEase) in 56.5288ms
+2023-11-22 20:06:06.795 +01:00 [INF] Executed endpoint 'TicketEase.Controllers.AuthenticationController.UpdatePassword (TicketEase)'
+2023-11-22 20:06:06.802 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7075/api/Authentication/update-password application/json 94 - 401 - application/json;+charset=utf-8 168.8477ms
+2023-11-22 20:06:40.404 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7075/swagger/index.html - -
+2023-11-22 20:06:40.445 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7075/swagger/index.html - - - 200 - text/html;charset=utf-8 40.9655ms
+2023-11-22 20:06:40.513 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7075/_vs/browserLink - -
+2023-11-22 20:06:40.513 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7075/_framework/aspnetcore-browser-refresh.js - -
+2023-11-22 20:06:40.541 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7075/_framework/aspnetcore-browser-refresh.js - - - 200 12352 application/javascript;+charset=utf-8 28.3025ms
+2023-11-22 20:06:40.553 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7075/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 39.7404ms
+2023-11-22 20:06:40.762 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7075/swagger/v1/swagger.json - -
+2023-11-22 20:06:40.810 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7075/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 47.8139ms
+2023-11-22 20:07:26.248 +01:00 [INF] User profile is available. Using 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-11-22 20:07:27.909 +01:00 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Payment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-11-22 20:07:28.293 +01:00 [INF] Entity Framework Core 6.0.0 initialized 'TicketEaseDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2023-11-22 20:07:29.970 +01:00 [INF] Executed DbCommand (142ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2023-11-22 20:07:30.320 +01:00 [INF] Executed DbCommand (6ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2023-11-22 20:07:30.347 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2023-11-22 20:07:30.387 +01:00 [INF] Executed DbCommand (5ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[Address], [a].[CloudinaryPublicId], [a].[ConcurrencyStamp], [a].[CreatedAt], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[Gender], [a].[ImageUrl], [a].[IsActive], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[ManagerId], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PasswordResetToken], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[ResetTokenExpires], [a].[SecurityStamp], [a].[State], [a].[TwoFactorEnabled], [a].[UpdatedAt], [a].[UserName], [a].[VerificationToken], [a].[VerifiedAt]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2023-11-22 20:07:31.243 +01:00 [INF] Now listening on: https://localhost:7075
+2023-11-22 20:07:31.258 +01:00 [INF] Now listening on: http://localhost:5075
+2023-11-22 20:07:31.289 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-22 20:07:31.303 +01:00 [INF] Hosting environment: Development
+2023-11-22 20:07:31.317 +01:00 [INF] Content root path: C:\Users\user\Documents\DecagonTasks\SQ017-TicketEase-Live-Project-Backend\TicketEase\
+2023-11-22 20:07:31.762 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7075/swagger/index.html - -
+2023-11-22 20:07:32.627 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7075/_vs/browserLink - -
+2023-11-22 20:07:32.630 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7075/_framework/aspnetcore-browser-refresh.js - -
+2023-11-22 20:07:32.631 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7075/swagger/index.html - - - 200 - text/html;charset=utf-8 878.9196ms
+2023-11-22 20:07:32.649 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7075/_framework/aspnetcore-browser-refresh.js - - - 200 12352 application/javascript;+charset=utf-8 19.8397ms
+2023-11-22 20:07:32.664 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7075/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 36.7998ms
+2023-11-22 20:07:32.802 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7075/swagger/v1/swagger.json - -
+2023-11-22 20:07:33.136 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7075/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 333.9363ms
+2023-11-22 20:08:24.795 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7075/swagger/index.html - -
+2023-11-22 20:08:24.812 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7075/swagger/index.html - - - 200 - text/html;charset=utf-8 16.2804ms
+2023-11-22 20:08:24.863 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7075/_framework/aspnetcore-browser-refresh.js - -
+2023-11-22 20:08:24.863 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7075/_vs/browserLink - -
+2023-11-22 20:08:24.881 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7075/_framework/aspnetcore-browser-refresh.js - - - 200 12352 application/javascript;+charset=utf-8 18.1698ms
+2023-11-22 20:08:24.931 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7075/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 67.4244ms
+2023-11-22 20:08:25.109 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7075/swagger/v1/swagger.json - -
+2023-11-22 20:08:25.133 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7075/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 23.9801ms
+2023-11-22 20:08:38.922 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7075/swagger/index.html - -
+2023-11-22 20:08:38.935 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7075/swagger/index.html - - - 200 - text/html;charset=utf-8 12.6084ms
+2023-11-22 20:08:38.976 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7075/_framework/aspnetcore-browser-refresh.js - -
+2023-11-22 20:08:38.984 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7075/_framework/aspnetcore-browser-refresh.js - - - 200 12352 application/javascript;+charset=utf-8 7.9791ms
+2023-11-22 20:08:38.995 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7075/_vs/browserLink - -
+2023-11-22 20:08:39.056 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7075/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 61.0445ms
+2023-11-22 20:08:39.298 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7075/swagger/v1/swagger.json - -
+2023-11-22 20:08:39.325 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7075/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 26.4693ms

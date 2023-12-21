@@ -1,0 +1,17 @@
+C:\Users\user\Documents\DecagonTasks\SQ017-TicketEase-Live-Project-Backend\TicketEase.Common\bin\Debug\net6.0\TicketEase.Common.deps.json
+C:\Users\user\Documents\DecagonTasks\SQ017-TicketEase-Live-Project-Backend\TicketEase.Common\bin\Debug\net6.0\TicketEase.Common.runtimeconfig.json
+C:\Users\user\Documents\DecagonTasks\SQ017-TicketEase-Live-Project-Backend\TicketEase.Common\bin\Debug\net6.0\TicketEase.Common.dll
+C:\Users\user\Documents\DecagonTasks\SQ017-TicketEase-Live-Project-Backend\TicketEase.Common\bin\Debug\net6.0\TicketEase.Common.pdb
+C:\Users\user\Documents\DecagonTasks\SQ017-TicketEase-Live-Project-Backend\TicketEase.Common\bin\Debug\net6.0\TicketEase.Domain.dll
+C:\Users\user\Documents\DecagonTasks\SQ017-TicketEase-Live-Project-Backend\TicketEase.Common\bin\Debug\net6.0\TicketEase.Domain.pdb
+C:\Users\user\Documents\DecagonTasks\SQ017-TicketEase-Live-Project-Backend\TicketEase.Common\obj\Debug\net6.0\TicketEase.Common.csproj.AssemblyReference.cache
+C:\Users\user\Documents\DecagonTasks\SQ017-TicketEase-Live-Project-Backend\TicketEase.Common\obj\Debug\net6.0\TicketEase.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Documents\DecagonTasks\SQ017-TicketEase-Live-Project-Backend\TicketEase.Common\obj\Debug\net6.0\TicketEase.Common.AssemblyInfoInputs.cache
+C:\Users\user\Documents\DecagonTasks\SQ017-TicketEase-Live-Project-Backend\TicketEase.Common\obj\Debug\net6.0\TicketEase.Common.AssemblyInfo.cs
+C:\Users\user\Documents\DecagonTasks\SQ017-TicketEase-Live-Project-Backend\TicketEase.Common\obj\Debug\net6.0\TicketEase.Common.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\DecagonTasks\SQ017-TicketEase-Live-Project-Backend\TicketEase.Common\obj\Debug\net6.0\TicketEase.Common.csproj.CopyComplete
+C:\Users\user\Documents\DecagonTasks\SQ017-TicketEase-Live-Project-Backend\TicketEase.Common\obj\Debug\net6.0\TicketEase.Common.dll
+C:\Users\user\Documents\DecagonTasks\SQ017-TicketEase-Live-Project-Backend\TicketEase.Common\obj\Debug\net6.0\refint\TicketEase.Common.dll
+C:\Users\user\Documents\DecagonTasks\SQ017-TicketEase-Live-Project-Backend\TicketEase.Common\obj\Debug\net6.0\TicketEase.Common.pdb
+C:\Users\user\Documents\DecagonTasks\SQ017-TicketEase-Live-Project-Backend\TicketEase.Common\obj\Debug\net6.0\TicketEase.Common.genruntimeconfig.cache
+C:\Users\user\Documents\DecagonTasks\SQ017-TicketEase-Live-Project-Backend\TicketEase.Common\obj\Debug\net6.0\ref\TicketEase.Common.dll
