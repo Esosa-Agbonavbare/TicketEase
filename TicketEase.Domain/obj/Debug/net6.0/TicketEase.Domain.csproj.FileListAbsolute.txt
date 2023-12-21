@@ -1,0 +1,14 @@
+C:\Users\user\Documents\DecagonTasks\SQ017-TicketEase-Live-Project-Backend\TicketEase.Domain\bin\Debug\net6.0\TicketEase.Domain.deps.json
+C:\Users\user\Documents\DecagonTasks\SQ017-TicketEase-Live-Project-Backend\TicketEase.Domain\bin\Debug\net6.0\TicketEase.Domain.runtimeconfig.json
+C:\Users\user\Documents\DecagonTasks\SQ017-TicketEase-Live-Project-Backend\TicketEase.Domain\bin\Debug\net6.0\TicketEase.Domain.dll
+C:\Users\user\Documents\DecagonTasks\SQ017-TicketEase-Live-Project-Backend\TicketEase.Domain\bin\Debug\net6.0\TicketEase.Domain.pdb
+C:\Users\user\Documents\DecagonTasks\SQ017-TicketEase-Live-Project-Backend\TicketEase.Domain\obj\Debug\net6.0\TicketEase.Domain.csproj.AssemblyReference.cache
+C:\Users\user\Documents\DecagonTasks\SQ017-TicketEase-Live-Project-Backend\TicketEase.Domain\obj\Debug\net6.0\TicketEase.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Documents\DecagonTasks\SQ017-TicketEase-Live-Project-Backend\TicketEase.Domain\obj\Debug\net6.0\TicketEase.Domain.AssemblyInfoInputs.cache
+C:\Users\user\Documents\DecagonTasks\SQ017-TicketEase-Live-Project-Backend\TicketEase.Domain\obj\Debug\net6.0\TicketEase.Domain.AssemblyInfo.cs
+C:\Users\user\Documents\DecagonTasks\SQ017-TicketEase-Live-Project-Backend\TicketEase.Domain\obj\Debug\net6.0\TicketEase.Domain.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\DecagonTasks\SQ017-TicketEase-Live-Project-Backend\TicketEase.Domain\obj\Debug\net6.0\TicketEase.Domain.dll
+C:\Users\user\Documents\DecagonTasks\SQ017-TicketEase-Live-Project-Backend\TicketEase.Domain\obj\Debug\net6.0\refint\TicketEase.Domain.dll
+C:\Users\user\Documents\DecagonTasks\SQ017-TicketEase-Live-Project-Backend\TicketEase.Domain\obj\Debug\net6.0\TicketEase.Domain.pdb
+C:\Users\user\Documents\DecagonTasks\SQ017-TicketEase-Live-Project-Backend\TicketEase.Domain\obj\Debug\net6.0\TicketEase.Domain.genruntimeconfig.cache
+C:\Users\user\Documents\DecagonTasks\SQ017-TicketEase-Live-Project-Backend\TicketEase.Domain\obj\Debug\net6.0\ref\TicketEase.Domain.dll
